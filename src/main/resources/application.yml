@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: 'org.hibernate.dialect.MariaDBDialect'
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: 'jdbc:mariadb://laum.me:6789/laum?characterEncoding=UTF-8&serverTimezone=UTC'
+    username: root
+    password: ahjs*8103
